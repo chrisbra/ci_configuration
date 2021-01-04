@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<project name="user" >
+    <target name="buildapp_prologue" >
+		<echo>=============== user:buildapp_prologue</echo>
+		</target>
+    <target name="buildapp_epilogue" >
+		<echo>=============== user:buildapp_epilogue</echo>
+		<echo>Copying Template to Project Root directory</echo>
+		<copy file="projects/${iitproject.name}/Templates/${application.template}.iwtemplate/${application.template}.ita" todir="projects/${iitproject.name}"/>
+	</target>
+    <target name="buildwar_prologue" >
+		<echo>=============== user:buildwar_prologue</echo>
+	</target>
+    <target name="buildwar_epilogue" >
+		<echo>=============== user:buildwar_epilogue</echo>
+	</target>
+	<target name="deployapp_prologue" >
+		<echo>=============== user:deployapp_prologue</echo>
+	</target>
+    <target name="deployapp_epilogue" >
+		<echo>=============== user:deployapp_epilogue</echo>
+	</target>
+	<target name="undeployapp_prologue" >
+		<echo>=============== user:undeployapp_prologue</echo>
+	</target>
+    <target name="undeployapp_epilogue" >
+		<echo>=============== user:undeployapp_epilogue</echo>
+	</target>
+	<target name="updateapp_prologue" >
+		<echo>=============== user:updateapp_prologue</echo>
+	</target>
+    <target name="updateapp_epilogue" >
+		<echo>=============== user:updateapp_epilogue</echo>
+	</target>
+	<target name="startapp_prologue" >
+		<echo>=============== user:startapp_prologue</echo>
+	</target>
+    <target name="startapp_epilogue" >
+		<echo>=============== user:startapp_epilogue</echo>
+	</target>
+	<target name="stopapp_prologue" >
+		<echo>=============== user:stopapp_prologue</echo>
+	</target>
+    <target name="stopapp_epilogue" >
+		<echo>=============== user:stopapp_epilogue</echo>
+	</target>
+</project>
